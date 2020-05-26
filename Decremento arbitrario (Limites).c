@@ -4,9 +4,9 @@
  {
  	int m, n, dec;
  	
- 	printf("\n\n\t\tEste programa realiza un decremento de m a n"
-	        "\n\n\t\t\tDecremento entre limites arbitrarios"
+ 	printf("\n\n\t\t\tDecremento entre limites arbitrarios"
 			 "\n\t\t--------------------------------------------------"
+			 "\n\n\t\tEste programa realiza un decremento de m a n"
 			  "\n\n\t\tIngrese el valor de m(Punto partida): ");
 			  scanf("%d", &m);
 	printf("\n\n\t\tIngrese el valor de de n(Punto de finalizacion):");
