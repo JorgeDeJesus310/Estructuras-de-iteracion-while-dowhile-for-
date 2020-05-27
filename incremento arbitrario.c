@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 
-main()
+   main()
 
 {
 
     int x = 100, n, inc;
 
-  printf("\n\n\t\tEste programa realiza un conteo de 1 a n"
-         "\n\n\t\tIncremento arbitrario "
+  printf("\n\n\t\t\tIncremento arbitrario "
+         "\n\t\t------------------------------------------------"
+         "\n\n\t\tEste programa realiza un conteo de n a 100" 
          "\n\n\t\tIntroduce el valor de n: ");
 
          scanf("%d", &n);
@@ -21,7 +22,7 @@ main()
           "\n\t----------");
 
 
-         while(x>=n)
+         while(x>n)
 
          {
              n = n + inc;

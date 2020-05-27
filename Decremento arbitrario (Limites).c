@@ -18,7 +18,7 @@
 	          printf("\n\n\t\t\tConteo regresivo"
 			         "\n\t\t-----------------------");
 	          
-	          while(m>=n)
+	          while(m>n)
 	          {
 	          	
 	          	m -=dec;

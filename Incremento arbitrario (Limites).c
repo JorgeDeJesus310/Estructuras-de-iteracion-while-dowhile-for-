@@ -5,9 +5,9 @@
  {
  	int n, m, inc;
  	
- 	printf("\n\n\t\tEste programa realiza un incremento de n a m"
-	        "\n\n\t\t\tIncremento arbitrario"
-			 "\n\t\t---------------------------"
+ 	printf("\n\n\t\t\tIncremento arbitrario"
+ 	        "\n\t\t------------------------------------------------"
+  	         "\n\n\t\tEste programa realiza un incremento de n a m"
 			  "\n\n\t\tIngresa el valor de n(Punto de partida): ");
 			  scanf("%d", &n);
 			  
@@ -17,15 +17,15 @@
 	printf("\n\n\t\tIngrese el valor de incremento: ");
 	         scanf("%d", &inc);
 	         
-	         printf("\n\n\t\t\tConteo de incremento"
-			         "\n\t\t--------------------------");
+	         printf("\n\n\t\tConteo de incremento"
+			         "\n\t\t----------------------");
 	            
 	         
-	         while(m>=n)
+	         while(m>n)
 	         {
 	         	n += inc;
 	         	
-	         	printf("\n\n\t\t %d ");
+	         	printf("\n\n\t\t\t%d ");
 	         	
 			 }
  	

@@ -5,7 +5,7 @@
  {
 
      int x;
-     printf("\n\n\t\tRealizacion de conteo de 1 a n"
+     printf("\n\n\t\tRealizacion de conteo de n a 10"
              "\n\n\t\t---------------------------------");
      printf("\n\n\t\tIngresa el valor de x: ");
 
